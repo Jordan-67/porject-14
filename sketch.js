@@ -98,6 +98,8 @@ function draw() {
 }
     
   drawSprites();
+  textSize(20)
+  text("score: "+ score,270, 30)
 }
 
 
